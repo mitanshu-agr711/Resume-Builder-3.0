@@ -5,6 +5,7 @@ import RegisterPage from './login_page/register.jsx'
 import LoginPage from './login_page/login.jsx'
 import PersonalDetails from './details/personalDetails.jsx'
 import Education from './details/education.jsx'
+import Template from './template/template.jsx'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Back" element={<FirstPage />} />
         <Route path="/PersonalDetails" element={<PersonalDetails />} />
         <Route path="/Education" element={<Education/>} />
+        <Route path="/Template" element={<Template/>} />
         
       </Routes>
     </Router>
